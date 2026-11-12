@@ -1,0 +1,19 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - odinxdApiKey
+    properties:
+      odinxdApiKey:
+        type: string
+        title: OdinxD Personal API Key
+        description: Generate your personal odx_live_... key at https://odinxd.com/dashboard
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['bin/odinxd-mcp.mjs'],
+      env: {
+        ODINXD_API_KEY: config.odinxdApiKey
+      }
+    })

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.odinxd-ai/OdinMCP",
+  "description": "Official OdinxD AI Video Studio MCP (v2.2) + 4 Skills: Atomic AI Image & Video APIs (UGC batches, Microdramas, Cinematic Faceless), Local FFmpeg/Whisper Assembler & Cloud Reel Rendering.",
+  "version": "2.2.0",
+  "repository": {
+    "url": "https://github.com/odinxd-ai/OdinMCP",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://odinxd.com/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Personal OdinxD API key formatted as 'Bearer odx_live_...'",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@odinxd/mcp-server",
+      "version": "2.2.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ODINXD_API_KEY",
+          "description": "Personal API Key ('odx_live_...') generated at https://odinxd.com/dashboard",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

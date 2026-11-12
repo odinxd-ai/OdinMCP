@@ -1,0 +1,54 @@
+{
+  "name": "@odinxd/mcp-server",
+  "version": "2.2.0",
+  "description": "Official Model Context Protocol (MCP) server, Atomic AI Image/Video Studio & 4 Claude Skills for OdinxD (https://odinxd.com). Generate AI avatars, product composites & 3s-15s Omni 1.2 Flash Lip-Sync/cinematic video clips (batch or single), clean raw footage locally with FFmpeg + Whisper, assemble 30s-90s+ UGC, Faceless Ads & Microdramas locally at $0 render cost, or render ViralBeat 2.0 & Hybrid Reels in OdinxD Cloud.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://odinxd.com/docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odinxd-ai/OdinMCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/odinxd-ai/OdinMCP/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "odinxd",
+    "ai-video",
+    "ugc-ads",
+    "microdrama",
+    "faceless-ads",
+    "reels",
+    "tiktok",
+    "youtube-shorts",
+    "real-estate-video",
+    "motion-graphics",
+    "ffmpeg",
+    "whisper",
+    "claude",
+    "cursor",
+    "antigravity",
+    "windsurf"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "odinxd-mcp-server": "./bin/odinxd-mcp.mjs",
+    "odinxd-mcp": "./bin/odinxd-mcp.mjs"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "skills/",
+    ".claude-plugin/",
+    ".mcp.json",
+    "README.md",
+    "LICENSE",
+    "server.json",
+    "smithery.yaml",
+    "glama.json"
+  ]
+}

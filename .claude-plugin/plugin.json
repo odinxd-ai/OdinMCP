@@ -1,0 +1,29 @@
+{
+  "name": "odinmcp",
+  "version": "2.2.0",
+  "description": "Official OdinxD AI Video Studio MCP + 4 Exclusive Skills (UGC Ad Factory, Cinematic Faceless Studio, Microdrama Showrunner & Local FFmpeg/Whisper Pre-Production + Timeline Assembler).",
+  "author": {
+    "name": "OdinxD",
+    "url": "https://odinxd.com"
+  },
+  "homepage": "https://odinxd.com/docs",
+  "repository": "https://github.com/odinxd-ai/OdinMCP",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "ai-video",
+    "ugc-ads",
+    "microdrama",
+    "faceless-ads",
+    "reels",
+    "tiktok",
+    "shorts",
+    "ffmpeg",
+    "whisper",
+    "podcast-clips",
+    "b-roll",
+    "odinxd"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

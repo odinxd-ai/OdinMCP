@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "odinxd": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/bin/odinxd-mcp.mjs"
+      ],
+      "env": {
+        "ODINXD_API_KEY": "${ODINXD_API_KEY}"
+      }
+    }
+  }
+}

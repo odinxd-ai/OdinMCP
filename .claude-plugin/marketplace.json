@@ -1,0 +1,20 @@
+{
+  "name": "odinxd",
+  "owner": {
+    "name": "OdinxD",
+    "url": "https://odinxd.com"
+  },
+  "metadata": {
+    "description": "Official OdinxD AI Video Production plugins & creative skills for Claude Code",
+    "version": "2.2.0"
+  },
+  "plugins": [
+    {
+      "name": "odinmcp",
+      "source": "./",
+      "description": "Complete Autonomous 9:16 AI Video Studio (v2.2): Atomic AI Image/Video APIs (UGC batches & 30s-60s+ multi-take UGC, Microdramas, Cinematic Faceless Ads), Local FFmpeg/Whisper Pre-Production & Timeline Assembler ($0 render cost), plus OdinxD Cloud Rendering (ViralBeat 2.0, 20 AI B-Roll styles, Real Estate & Motion Graphics).",
+      "version": "2.2.0",
+      "category": "media"
+    }
+  ]
+}

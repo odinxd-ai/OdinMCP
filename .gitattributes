@@ -1,0 +1,6 @@
+# Exclude visual showcase previews from git archive / npx tarballs so
+# `npx -y github:odinxd-ai/OdinMCP` installs in <0.5s (~15 KB) while
+# keeping the full animated showcase visible on GitHub!
+previews/** export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
